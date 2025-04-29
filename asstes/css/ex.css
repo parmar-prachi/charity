@@ -1,0 +1,126 @@
+*{
+
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+
+
+--primary-color: #3CA200 ;
+--second-color: #F4F6F0;
+--container2:#EAED99;
+--c-color:white; 
+--font-family: 'Parkinsans';
+ --font-color: #000000; 
+ --fs: 20px ;
+ --fw: 200px;
+ --gw : 15px;   
+}
+
+body{
+
+    background-color: var(--c-color);
+    color: var(--font-color);
+    font-size: var(--fs);
+    font-family: var(--font-family);
+    font-weight: var(--fw);
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+/*img{
+    max-width: 100%;
+    display: block;
+}*/
+
+ul,ol{
+
+    padding-left: 0;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+
+    font-family: var(--font-family);
+    font-weight: 400;
+
+}
+
+.container {
+
+    max-width: 1920px;
+    background-color: var(--container2);
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--gw);
+    padding-right: var(--gw);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--gw));
+    margin-right: calc(-1 * var(--gw));
+}
+.col-1{
+    width: 8.3333%;
+}
+.col-2{
+    width: 16.6666%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.3333%;
+}
+.col-5{
+    width: 41.6666%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.3333%;
+}
+.col-8{
+    width: 66.6666%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.3333%;
+}
+.col-11{
+    width: 91.6666%;
+}
+.col-12{
+    width: 100%;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    padding-left: var(--gw);
+    padding-right: var(--gw);
+} 
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+
+.div.ul{
+
+  justify-content: flex-end;
+}
